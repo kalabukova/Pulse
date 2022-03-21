@@ -1,0 +1,120 @@
+@media (max-width: 1200px){
+    .promo {
+       min-height:  650px;
+          }
+    .header {
+        &__logo {
+            width: 210px;
+        }
+        &__official {
+            span {
+                font-size: 17px;
+            }
+            
+        }
+    }
+}
+@media (max-width: 991px) {
+    .container{
+        max-width: 725px;
+    }
+    .header {
+        &__logo {
+            width: 195px;
+        }
+        &__official {
+            span{
+                font-size: 15px;
+            }
+        }
+        &__phone {
+            font-size: 17px;
+        }
+    }
+    .promo {
+        &__header {
+            font-size: 39px;
+        }
+        &__subheader {
+            font-size: 22px;
+        }
+    .button {
+        &_main {
+            width: 280px;
+            height: 45px;
+            font-size: 15px;
+        }
+    }
+        &__link {
+            font-size: 15px;
+        }
+    }
+    .preference {
+        &__header {
+        font-size: 28px;
+        }
+    }
+}
+@media (max-width: 767px) {
+    .promo{
+    .header {
+        justify-content: center;
+    }
+        &__wrapper {
+        align-items: center;
+        }
+    }
+    .preference {
+        padding: 20px 40px 30px 40 px;
+        &__icons {
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+        &__icon {
+            margin: 0 auto;
+        }
+    }
+}
+@media (max-width: 575px) {
+    .promo {
+    .header {
+        padding: 14px;
+        align-items: center;
+        &__official {
+            display: none;
+        }
+        &__contacts {
+            display: none;
+        }
+  
+    }
+        &__header {
+        font-size: 25px;
+        }
+        &__subheader {
+            font-size: 14px;
+        }
+        &__icons{
+            max-width: 100%;
+        }
+      
+            
+    .button {
+        &_main {
+            width: 250px;
+            height: 40px;
+            font-size: 13px;
+        }
+    }
+        &__link {
+            font-size: 13px;
+        }
+    }
+    .preference {
+        &__header {
+        font-size: 24px;
+        }
+    }
+}
