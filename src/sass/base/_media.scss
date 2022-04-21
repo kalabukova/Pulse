@@ -54,6 +54,39 @@
         font-size: 28px;
         }
     }
+    .consultation {
+        min-height: 620px;
+        padding: 80px 40px 92px 40px;
+        &__subheader {
+            &_left {
+                font-size: 34px;
+            }
+        }
+    }
+    .feed-form{
+        width: 290px;
+        input {
+            height: 45px;
+        }
+    }
+    .catalog {
+        padding-bottom: 80px;
+        &__content {
+            justify-content: space-evenly;
+        }
+    }
+    .feed {
+        min-height: 900px;
+        &__item {
+            margin: 80px 20px 0 20px;
+            &:nth-child(1) {
+                margin-top: 60px;
+            }
+        }
+        &__img {
+            margin-right: 40px;
+        }
+    }
 }
 @media (max-width: 767px) {
     .promo{
@@ -78,6 +111,7 @@
     }
     .consultation {
         padding: 65px 40px 85px 40px;
+        min-height: 570px;
         .title {
             &_left {
                 font-size: 34px;
@@ -91,6 +125,57 @@
             }
         }
 
+    }
+    .carousel {
+        &__inner {
+        width: 85%;
+        margin: 0 auto;
+            img {
+                width: 100%
+            }
+        }
+    }
+    .catalog {
+        padding-bottom: 60px;
+        .subheader {
+            font-size: 25px;
+        }
+        &__tabs {
+            margin-top: 55px;
+        }
+        &__tab {
+            width: 174px;
+            line-height: 48px;
+            font-size: 15px;
+        }
+
+    }
+    .feed {
+        &__item {
+            flex-wrap: wrap;
+            flex-direction: column;
+            margin: 70px 30px 0 30px;
+            &:nth-child(1) {
+                margin: 50px;
+            }
+            img {
+                margin: 0 auto;
+                width: 160px;
+                height: 160px;
+            }
+        }
+        &__text {
+            margin-top: 20px;   
+            text-align: center;
+            width: 560px;
+        }
+        &__subtitle {
+            text-align: center;
+        }
+        &__count {
+            text-align: center;
+        }
+        
     }
 }
 @media (max-width: 575px) {
@@ -143,8 +228,7 @@
                 text-align: center;
                 font-size: 28px;
             }
-        
-            
+                 
         }
         .feed-form {
             width: 240px;
@@ -153,6 +237,116 @@
         }
 
     }
-
+    .carousel {
+        &__inner {
+        width: 60%;
+        margin: 0 auto;
+            img {
+                width: 100%
+            }
+        }
+    }  
+    .slick-dots {
+        display:flex;
+        justify-content: center;
+        margin-top: 20px;
+        .slick-active {
+            button {
+                background: #8347fa;
+                width: 12px;
+                height: 12px;
+            }
+        }
+        li {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            margin-right: 12px;
+            button {
+                border: none;
+                border-radius: 100%;
+                background-color: rgba(80, 71, 250, 0.35);
+                font-size: 0;
+                line-height: 0;
+                cursor: pointer;
+                text-align: center;
+                width: 8px;
+                height: 8px;
+                outline: none;
+            } 
+        }
+    }
+    .catalog {
+    .title {
+        font-size: 25px;
+    }
+        &__tabs {
+            flex-wrap: wrap;
+            margin-top: 25px;
+        }
+        &__tab {
+            margin-top: 10px;
+        }
+    }
+    .feed {
+        .title {
+            font-size: 25px;
+        }
+        &__text {
+            width: 100%;
+        }
+    }
+}
+@media (max-width: 320px) {
+    .promo {
+        &__wrapper {
+            margin-top: 30px;
+        }
+        &__header {
+            font-size: 20px;
+        }
+        &__subheader {
+            font-size: 12px;
+        }
+    }
+    .preference {
+        .title {
+            font-size: 20px;
+        }
+        &__wrapper {
+            margin-top: 40px;
+        }
+    }
+    .consultation {
+    .title {
+        &_left {
+            font-size: 22px;
+        }
+        &__descr {
+            font-size: 15px;
+        }
+    }
+    }
+    .catalog {
+        padding-bottom: 25px;
+        &__content {
+            margin-top: 40px;
+        }
+    .title {
+        font-size: 23px;
+    }
+    }
+    .feed {
+    .title {
+        font-size: 22px;
+    }
+    &__item {
+        flex-wrap: nowrap;
+    }
+    &__text {
+        margin-left: 30px;
+        padding-right: 51px;
+    }
+    }
 }
 
