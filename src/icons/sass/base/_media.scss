@@ -1,0 +1,512 @@
+@media (max-width: 1200px){
+    .promo {
+       min-height:  650px;
+          }
+    .header {
+        &__logo {
+            width: 210px;
+        }
+        &__official {
+            span {
+                font-size: 17px;
+            }
+            
+        }
+    }
+    .modal {
+        &__close {
+            top: 46px;
+        }
+    }
+}
+@media (max-width: 991px) {
+    .container{
+        max-width: 725px;
+    }
+    .header {
+        &__logo {
+            width: 195px;
+        }
+        &__official {
+            span{
+                font-size: 15px;
+            }
+        }
+        &__phone {
+            font-size: 17px;
+        }
+    }
+    .promo {
+        &__header {
+            font-size: 39px;
+        }
+        &__subheader {
+            font-size: 22px;
+        }
+    .button {
+        &_main {
+            width: 280px;
+            height: 45px;
+            font-size: 15px;
+        }
+    }
+        &__link {
+            font-size: 15px;
+        }
+    }
+    .preference {
+    .title{
+        font-size: 28px;
+        }
+    }
+    .consultation {
+        min-height: 620px;
+        padding: 80px 40px 92px 40px;
+        &__subheader {
+            &_left {
+                font-size: 34px;
+            }
+        }
+    }
+    .feed-form{
+        width: 290px;
+        input {
+            height: 45px;
+        }
+    }
+    .catalog {
+        padding-bottom: 80px;
+        &__content {
+            justify-content: space-evenly;
+        }
+    }
+    .feed {
+        min-height: 900px;
+        &__item {
+            margin: 80px 20px 0 20px;
+            &:nth-child(1) {
+                margin-top: 60px;
+            }
+        }
+        &__img {
+            margin-right: 40px;
+        }
+    }
+    .modal {
+        width: 355px;
+        min-height: 380px;
+        padding: 28px 34px 33px 34px;
+        &__close {
+            top: 28px;
+            right: -33px;
+            font-size: 38px;
+            line-height: 17px;
+        }
+        &__subtitle {
+            font-size: 16px;
+        }
+    }
+}
+@media (max-width: 767px) {
+    .promo{
+    .header {
+        justify-content: center;
+    }
+        &__wrapper {
+        align-items: center;
+        }
+    }
+    .preference {
+        padding: 20px 40px 30px 40 px;
+        &__icons {
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+        &__icon {
+            margin: 0 auto;
+        }
+    }
+    .consultation {
+        padding: 65px 40px 85px 40px;
+        min-height: 570px;
+        .title {
+            &_left {
+                font-size: 34px;
+            }
+            
+        }
+        .feed-form {
+            width: 280px;
+            input {
+                height: 40px;
+            }
+        }
+
+    }
+    .carousel {
+        &__inner {
+        width: 85%;
+        margin: 0 auto;
+            img {
+                width: 100%
+            }
+        }
+    }
+    .catalog {
+        padding-bottom: 60px;
+        .subheader {
+            font-size: 25px;
+        }
+        &__tabs {
+            margin-top: 55px;
+        }
+        &__tab {
+            width: 174px;
+            line-height: 48px;
+            font-size: 15px;
+        }
+
+    }
+    .feed {
+        &__item {
+            flex-wrap: wrap;
+            flex-direction: column;
+            margin: 70px 30px 0 30px;
+            &:nth-child(1) {
+                margin: 50px;
+            }
+            img {
+                margin: 0 auto;
+                width: 160px;
+                height: 160px;
+            }
+        }
+        &__text {
+            margin-top: 20px;   
+            text-align: center;
+            width: 560px;
+        }
+        &__subtitle {
+            text-align: center;
+        }
+        &__count {
+            text-align: center;
+        }
+        
+    }
+    .footer {
+        &__info {
+            padding: 42px 53px 42px 53px;
+            width: 410px;
+            height: 250px;
+        }
+        &__addr {
+            font-size: 17px;
+        }
+        &__phone {
+            font-size: 18px;
+        }
+        &__social-item {
+            width: 48px;
+            height: 48px;
+            img {
+                height: 22px;
+            }
+        }
+    }
+    .modal {
+        width: 320px;
+        min-height: 360px;
+        padding: 28px 30px 33px 30px;
+        &__subtitle {
+            font-size: 16px;
+        }
+        &__descr {
+            font-size: 13px;
+        }
+        &__close {
+            top: 30px;
+            right: -31px;
+            font-size: 35px;
+            line-height: 17px;
+        }
+    }
+    .feed-form {
+        &_mt25 {
+            width: 260px;
+        }
+    }
+}
+@media (max-width: 575px) {
+    .promo {
+    .header {
+        padding: 14px;
+        align-items: center;
+        &__official {
+            display: none;
+        }
+        &__contacts {
+            display: none;
+        }
+  
+    }
+        &__header {
+        font-size: 25px;
+        }
+        &__subheader {
+            font-size: 14px;
+        }
+        &__icons{
+            max-width: 100%;
+        }
+      
+            
+    .button {
+        &_main {
+            width: 250px;
+            height: 40px;
+            font-size: 13px;
+        }
+    }
+        &__link {
+            font-size: 13px;
+        }
+    }
+    .preference {
+    .title {
+        font-size: 24px;
+        }
+    }
+    .consultation {
+        min-height: 540px;
+        &__descr {
+            text-align: center;
+        }
+        .title {
+            &_left {
+                text-align: center;
+                font-size: 28px;
+            }
+                 
+        }
+        .feed-form {
+            width: 240px;
+            margin: 0 auto;
+            margin-top: 20px;
+        }
+
+    }
+    .carousel {
+        &__inner {
+        width: 60%;
+        margin: 0 auto;
+            img {
+                width: 100%
+            }
+        }
+    }  
+    .slick-dots {
+        display:flex;
+        justify-content: center;
+        margin-top: 20px;
+        .slick-active {
+            button {
+                background: #8347fa;
+                width: 12px;
+                height: 12px;
+            }
+        }
+        li {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            margin-right: 12px;
+            button {
+                border: none;
+                border-radius: 100%;
+                background-color: rgba(80, 71, 250, 0.35);
+                font-size: 0;
+                line-height: 0;
+                cursor: pointer;
+                text-align: center;
+                width: 8px;
+                height: 8px;
+                outline: none;
+            } 
+        }
+    }
+    .catalog {
+    .title {
+        font-size: 25px;
+    }
+        &__tabs {
+            flex-wrap: wrap;
+            margin-top: 25px;
+        }
+        &__tab {
+            margin-top: 10px;
+        }
+    }
+    .feed {
+        .title {
+            font-size: 25px;
+        }
+        &__text {
+            width: 100%;
+        }
+    }
+    .footer {
+        &__info {
+            padding:30px 19px 25px 19px ;
+            width: 320px;
+            height: 200px;
+        }
+        &__addr {
+            font-size: 16px;
+            margin-bottom: 31px;
+        }
+        &__phone {
+            font-size: 16px;
+            margin-bottom: 31px;
+        }
+        &__social-item {
+            width: 40px;
+            height: 40px;
+            img {
+                height: 20px;
+            }
+        }
+    }
+    .modal {
+        width: 281px;
+        min-height: 335px;
+        padding: 25px 20px 28px 20px;
+        &__subtitle {
+            font-size: 14px;
+            margin-bottom: 9px;
+        }
+        &__descr {
+            font-size: 11px;
+        }
+        &__close {
+            top: 36px;
+            right: -21px;
+            font-size: 30px;
+            line-height: 13px;
+        }
+    }
+    .feed-form {
+        &_mt25 {
+            width: 221px;
+            input {
+                font-size: 12px;
+                padding: 0 12px;
+            }
+        }
+    }
+    .button {
+        &_submit {
+            font-size: 14px;
+        }
+    }
+}
+@media (max-width: 320px) {
+    .promo {
+        &__wrapper {
+            margin-top: 30px;
+        }
+        &__header {
+            font-size: 20px;
+        }
+        &__subheader {
+            font-size: 12px;
+        }
+    }
+    .preference {
+        .title {
+            font-size: 20px;
+        }
+        &__wrapper {
+            margin-top: 40px;
+        }
+    }
+    .consultation {
+    .title {
+        &_left {
+            font-size: 22px;
+        }
+        &__descr {
+            font-size: 15px;
+        }
+    }
+    }
+    .catalog {
+        padding-bottom: 25px;
+        &__content {
+            margin-top: 40px;
+        }
+    .title {
+        font-size: 18px;
+    }
+        &__tab {
+            font-size: 14px;
+        }
+    }
+    .feed {
+    .title {
+        font-size: 22px;
+    }
+    &__item {
+        flex-wrap: nowrap;
+    }
+    &__text {
+        margin-left: 30px;
+        padding-right: 51px;
+    }
+    }
+    .footer {
+        &__info {
+            padding:26px 17px 26px 17px ;
+            width: 260px;
+            min-height: 180px;
+        }
+        &__addr {
+            font-size: 15px;
+        }
+        &__phone {
+            font-size: 15px;
+        }
+        &__social-item {
+            width: 35px;
+            height: 35px;
+            img {
+                height: 18px;
+            }
+        }
+    }
+    .modal {
+        width: 260px;
+        min-height: 330px;
+        padding: 24px 20px 28px 20px;
+        &__subtitle {
+            font-size: 13px;
+        }
+        &__close {
+            top: 20px;
+        }
+    }
+    .feed-form {
+        &_mt25 {
+            margin-top: 15px;
+            font-size: 14px;
+        }
+    }
+    .button {
+        &_submit {
+            font-size: 13px;
+        }
+    }
+}
+
